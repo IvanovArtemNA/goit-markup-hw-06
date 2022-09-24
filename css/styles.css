@@ -1001,6 +1001,7 @@ img {
 
 .icon-checkbox {
   margin-right: 7px;
+  color: var(--background-text-color);
 }
 
 .checkbox:checked + .icon-checkbox {
