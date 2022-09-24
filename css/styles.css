@@ -689,7 +689,7 @@ img {
 
 .modal {
   position: absolute;
-  top: 45%;
+  top: 41%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1); /*!!!!!*/
 
