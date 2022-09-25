@@ -709,8 +709,8 @@ img {
   background-color: #ffffff;
   border: none;
   position: absolute;
-  top: -6%;
-  right: -8%;
+  top: -7%;
+  right: -9%;
 }
 
 .close-button {
@@ -719,6 +719,7 @@ img {
   border-radius: 50%;
 
   cursor: pointer;
+  padding: 5px;
 }
 
 .close-modal:hover,
@@ -1001,6 +1002,7 @@ img {
 
 .icon-checkbox {
   margin-right: 7px;
+  position: relative;
 }
 
 .checkbox:checked + .icon-checkbox {
@@ -1012,5 +1014,20 @@ img {
 
 .checkbox + .icon-checkbox {
   opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tutitu {
+  position: absolute;
+  margin-right: 390px;
+}
+
+.checkbox:checked ~ .tutitu {
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox ~ .tutitu {
+  opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
